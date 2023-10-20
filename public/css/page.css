@@ -1,0 +1,39 @@
+.page{
+    text-align: center;
+    height: 78vh;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(162, 226, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.page h1{
+    color: #0300a8;
+}
+
+.page h3{
+    padding: 5px 35px;
+}
+
+.page a{
+    background-color: transparent;
+    color: #0300a8 ;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid #0300a8;
+    font-weight: 500;
+}
+
+.page figure{
+    margin-bottom: 20px;
+}
+
+.page a:hover{
+background-color: #0300a8;
+color:rgb(162, 226, 255) ;
+}

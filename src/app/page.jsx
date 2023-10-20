@@ -15,7 +15,7 @@ const Page = () => {
     <Image src="/img/icon/icon-calca.png" alt="calca" width={100} height={100}/> Calça
     </Link>
 
-    <Link className='link' href="/produtos/calca">
+    <Link className='link' href="/produtos/camisa">
     <Image  src="/img/icon/icon-camisa.png" alt="calca" width={100} height={100}/> Camisa
     </Link>
 
