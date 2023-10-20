@@ -1,0 +1,48 @@
+.home{
+    text-align: center;
+    height: 78vh;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(162, 226, 255);
+}
+
+.home h1{
+    color: #0300a8;
+    margin-bottom: 10px;
+}
+
+.home h3{
+  margin-bottom: 20px;
+  text-align: center;
+ 
+
+}
+.produtos{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 55vh;
+margin: 30px;
+}
+
+.link{
+padding: 100px 45px;
+border: 4px solid #0300a8;
+background: #ffffff67;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+color: #0300a8;
+text-decoration: none;
+font-size: 2rem;
+font-weight: 500;
+gap: 20px;
+transition: outline 1s ease 0s;
+}
+
+.link:hover{
+  outline: 5px solid #0300a8;
+  background: #01004962;
+}
+
+

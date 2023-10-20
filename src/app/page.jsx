@@ -1,15 +1,38 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 const Page = () => {
   return (
-    <div>
+    <div className='home'>
     <h1>Home</h1>
-    <h3>Seja bem-vindo à nossa loja, o seu destino para moda e estilo excepcionais! Na nossa loja, combinamos qualidade, elegância e versatilidade para oferecer a você uma experiência de compras excepcional. De camisas a calças, sapatos a bonés e óculos a acessórios, nossa seleção de produtos de alta qualidade é projetada para atender a todas as suas necessidades. Valorizamos a moda, o conforto e a satisfação do cliente. Com preços competitivos e atendimento excepcional, estamos comprometidos em tornar sua experiência de compra inesquecível. Visite-nos e descubra o que há de mais recente em estilo e elegância</h3>
-    <Link href="/produtos/camisa">Camisa</Link>
-    <Link href="/produtos/calca">Calça</Link>
-    <Link href="/produtos/sapato">Sapato</Link>
-    <Link href="/produtos/bone">Boné</Link>
-    <Link href="/produtos/oculos">Óculos</Link>
+    <h3>Descubra a moda com estilo em nossa loja! Oferecemos roupas, calçados e acessórios elegantes que combinam com seu estilo pessoal. Qualidade e conforto se unem em nossa seleção. Seja na moda, visite-nos e encontre as últimas tendências que farão você se destacar.</h3>
+
+<div className='produtos'>
+
+   
+
+    <Link className='link' href="/produtos/calca">
+    <Image src="/img/icon/icon-calca.png" alt="calca" width={100} height={100}/> Calça
+    </Link>
+
+    <Link className='link' href="/produtos/calca">
+    <Image  src="/img/icon/icon-camisa.png" alt="calca" width={100} height={100}/> Camisa
+    </Link>
+
+
+    <Link className='link' href="/produtos/sapato">
+    <Image src="/img/icon/icon-tenis.png" alt="camisa" width={100} height={100}/> Sapato
+    </Link>
+
+    <Link className='link' href="/produtos/bone">
+    <Image src="/img/icon/icon-bone.png" alt="boné" width={100} height={100}/> Boné
+    </Link>
+
+    <Link className='link' href="/produtos/oculos">
+    <Image src="/img/icon/icon-oculos.png" alt="oculos" width={100} height={100}/> Óculos
+    </Link>
+</div>
+
   </div>
 );
 

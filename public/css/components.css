@@ -1,0 +1,17 @@
+.cabecalho{
+    background: #000b9e;
+    text-align: center;
+    color: rgb(149, 205, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.rodape{
+    background: #000b9e;
+    text-align: center;
+    color: rgb(149, 205, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    font-size: 1rem;
+}

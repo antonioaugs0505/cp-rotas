@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
       './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -12,14 +11,10 @@ module.exports = {
           'gradient-conic':
             'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         },
-        padding: {
-          '2.7': '0.675rem',
-          '2.8': '0.685rem',
+        width: {
+          '50': '50%',
         },
       },
     },
     plugins: [],
   }
-
-
-
