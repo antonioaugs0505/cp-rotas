@@ -6,11 +6,12 @@ export default function Bone() {
     
         
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deleniti suscipit laudantium perspiciatis, minus provident, laboriosam eius repudiandae incidunt itaque eum temporibus, illum tempore reprehenderit voluptate voluptates quas. Architecto, ea.</p>
-            <p> <Link href="/">Voltar...</Link> </p>
+            <p>Complete seu visual com nossos bonés modernos. Além de adicionar estilo, nossos bonés oferecem proteção contra o sol. Escolha entre uma variedade de designs e cores para combinar com seu estilo pessoal. Esteja na moda e protegido com nossos bonés.</p>
             <figure>
               <Image src="/img/bone.jpg" alt="Bone" width={307} height={320}/>
             </figure>
+            <p> <Link href="/">Voltar...</Link> </p>
+            
         </div>
     
   )

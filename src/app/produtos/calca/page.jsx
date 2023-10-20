@@ -6,11 +6,14 @@ export default function Calca() {
     
         
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deleniti suscipit laudantium perspiciatis, minus provident, laboriosam eius repudiandae incidunt itaque eum temporibus, illum tempore reprehenderit voluptate voluptates quas. Architecto, ea.</p>
-            <p> <Link href="/">Voltar...</Link> </p>
+            <p>Descubra o conforto duradouro com nossas calças de alta qualidade. Com cortes modernos e tecidos resistentes, nossas calças são ideais para o dia a dia. Disponíveis em diversas cores e estilos, você pode criar looks versáteis para qualquer ocasião.</p>
+            
             <figure>
               <Image src="/img/calca.jpg" alt="Calça" width={307} height={320}/>
             </figure>
+            
+            <p> <Link href="/">Voltar...</Link> </p>
+            
         </div>
     
   )

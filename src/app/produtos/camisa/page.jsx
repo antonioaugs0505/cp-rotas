@@ -6,11 +6,13 @@ export default function Camisa() {
     
         
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deleniti suscipit laudantium perspiciatis, minus provident, laboriosam eius repudiandae incidunt itaque eum temporibus, illum tempore reprehenderit voluptate voluptates quas. Architecto, ea.</p>
-            <p> <Link href="/">Voltar...</Link> </p>
+            <p>Eleve seu estilo com nossas camisas versáteis. Seja para o trabalho ou lazer, nossas camisas oferecem elegância e conforto. Escolha entre uma variedade de cores e estampas para combinar com seu estilo único. Faça uma declaração de moda com nossas camisas de alta qualidade.</p>
             <figure>
               <Image src="/img/camisa.jpg" alt="Camisa" width={307} height={320}/>
             </figure>
+            
+            <p> <Link href="/">Voltar...</Link> </p>
+            
         </div>
     
   )

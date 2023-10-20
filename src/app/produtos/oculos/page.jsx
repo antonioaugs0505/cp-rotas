@@ -6,7 +6,8 @@ export default function Oculos() {
     
         
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deleniti suscipit laudantium perspiciatis, minus provident, laboriosam eius repudiandae incidunt itaque eum temporibus, illum tempore reprehenderit voluptate voluptates quas. Architecto, ea.</p>
+            <p>Veja o mundo com estilo usando nossos óculos de sol premium. Oferecendo proteção UV de qualidade e designs elegantes, nossos óculos são a escolha perfeita para qualquer clima ensolarado. Eleve seu visual e proteja seus olhos com nossos óculos sofisticados."
+            </p>
             <p> <Link href="/">Voltar...</Link> </p>
             <figure>
               <Image src="/img/oculos.jpg" alt="Oculos" width={307} height={320}/>
