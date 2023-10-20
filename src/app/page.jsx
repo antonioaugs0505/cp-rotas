@@ -1,17 +1,17 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import Rodape from "@/components/Rodape/page.jsx"
-import Cabecalho from "@/components/Cabecalho/page.jsx"
+import Link from 'next/link';
 
-export default function Home() {
+const Page = () => {
   return (
-    <html lang="pt-br">
-    <body>
-      <Cabecalho/>
-       
-      <Rodape/>
-    </body>
-  </html>
-  
-  )
-}
+    <div>
+    <h1>Página Principal</h1>
+    <Link href="/produtos/camisa">Camisa</Link>
+    <Link href="/produtos/calca">Calça</Link>
+    <Link href="/produtos/sapato">Sapato</Link>
+    <Link href="/produtos/bone">Boné</Link>
+    <Link href="/produtos/oculos">Óculos</Link>
+  </div>
+);
+
+};
+
+export default Page;
